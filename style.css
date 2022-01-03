@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+	
+	body {
+		font-family: 'Outfit', sans-serif;
+		width:1440px;
+		padding-top:50px;
+		display:flex;
+		background-color: hsl(217, 54%, 11%);
+	}
+	
+.card{
+	background-color:hsl(216, 50%, 16%);
+	box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.3), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+	width: 300px;
+	margin: auto;
+	padding: 22px;
+	border-radius: 10px;
+	display:flex;
+	flex-direction:column;
+}
+#contento{
+	width:100%;
+}
+#theImage{
+	width:100%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+#stHeader{
+
+	 color:white;
+	 font-weight:600;
+	
+}
+p{
+	font-weight:400;
+	font-size:18px;
+	color: hsl(215, 51%, 70%);
+}
+.oneLine{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	align-items: top;
+	justify-content:center;
+	color:silver;
+	font-weight:600;
+}
+.oneLine a {color: hsl(178, 100%, 50%)}
+.oneLine span {display:flex; align-items:center; justify-content:center;}
+.oneLine hr {
+background:none;
+clear:both;
+float:none;
+width:10%;
+border:none;
+}
+.ndLine{
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+
+	color: hsl(215, 51%, 70%);
+	font-weight:400;
+}
+.ndLine a {color: white;}
+.line{
+	 border-top: 1px solid hsl(215, 32%, 27%);
+
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
